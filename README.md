@@ -53,6 +53,17 @@ ai-code-evaluation-lab/
 6. Unified evaluator helper
 7. Final portfolio polish
 
+## Running the Evaluator
+
+Use the unified evaluator helper from the repository root. The helper reads each task's `task.json`, verifies required files, prints the task metadata, and runs the configured test command from inside the task directory.
+
+```bash
+python evaluator/score_task.py python-data-analysis/task_01_monthly_revenue
+python evaluator/score_task.py javascript-functions/task_01_suspicious_refunds
+python evaluator/score_task.py react-ui-tasks/task_01_kpi_card
+python evaluator/score_task.py cpp-algorithms/task_01_top_k_frequent
+```
+
 ## What This Demonstrates
 
 For recruiters and hiring teams, this project demonstrates practical skill in code evaluation, bug identification, test design, rubric-based scoring, and technical communication. It also shows the ability to reason across data analysis, frontend behavior, general-purpose scripting, and algorithmic code.
