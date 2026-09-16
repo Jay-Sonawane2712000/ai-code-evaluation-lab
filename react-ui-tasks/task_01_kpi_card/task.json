@@ -1,0 +1,9 @@
+{
+  "track": "react-ui-tasks",
+  "task_id": "task_01_kpi_card",
+  "language": "react",
+  "test_command": "npm test",
+  "correct_solution": "correct/KpiCard.jsx",
+  "flawed_solution": "flawed/KpiCard.jsx",
+  "evaluation": "evaluation.md"
+}
