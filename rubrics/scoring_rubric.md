@@ -1,14 +1,25 @@
 # Shared Scoring Rubric
 
-Each task is scored out of 25 points across five categories.
+Each reviewed solution is scored out of 25 points across five categories. Use this rubric with the task prompt, tests, and written evaluation so the score is grounded in observable behavior.
 
 | Category | Points | Description |
 | --- | ---: | --- |
-| Correctness | 0-5 | Measures whether the solution produces the expected results and satisfies the task requirements. |
-| Efficiency | 0-5 | Measures whether the solution uses appropriate time and space complexity for the task. |
-| Code Quality | 0-5 | Measures readability, organization, naming, maintainability, and use of idiomatic patterns. |
-| Edge Cases | 0-5 | Measures whether the solution handles boundary conditions, invalid inputs, empty inputs, duplicates, missing values, and other likely edge cases. |
-| Explanation / Communication | 0-5 | Measures whether the reasoning, assumptions, limitations, and tradeoffs are clearly communicated. |
+| Correctness | 0-5 | Does the solution satisfy the required behavior and produce the expected results? |
+| Efficiency | 0-5 | Does the solution use appropriate time and space complexity for the task size and constraints? |
+| Code Quality | 0-5 | Is the code readable, organized, maintainable, idiomatic, and appropriately scoped? |
+| Edge Cases | 0-5 | Does the solution handle boundary conditions, invalid or empty inputs, duplicates, missing values, ties, and other likely edge cases? |
+| Explanation / Communication | 0-5 | Are assumptions, reasoning, limitations, and tradeoffs explained clearly enough for a reviewer or user? |
+
+## Score Guidance
+
+| Score | Meaning |
+| ---: | --- |
+| 5 | Excellent; fully satisfies the category with no meaningful issues. |
+| 4 | Strong; minor issues exist but the category is mostly satisfied. |
+| 3 | Mixed; works in common cases but has notable gaps. |
+| 2 | Weak; significant issues affect important scenarios. |
+| 1 | Very weak; only a small part of the category is satisfied. |
+| 0 | Missing, nonfunctional, or not applicable because the solution fails before this category can be assessed. |
 
 ## Severity Definitions
 
@@ -18,11 +29,11 @@ A critical issue makes the solution unusable for the core task. Examples include
 
 ### Major Issue
 
-A major issue causes incorrect behavior for important scenarios but does not completely invalidate the solution. Examples include mishandling common edge cases, using an inefficient approach that will fail at realistic scale, or omitting meaningful requirements.
+A major issue causes incorrect behavior for important scenarios but does not completely invalidate the solution. Examples include mishandling common edge cases, using an inefficient approach that fails at realistic scale, or omitting meaningful requirements.
 
 ### Minor Issue
 
-A minor issue affects less common scenarios or creates limited confusion without changing the main outcome for typical cases. Examples include incomplete validation, unclear variable names in a small area, or slightly incomplete explanation.
+A minor issue affects less common scenarios or creates limited confusion without changing the main outcome for typical cases. Examples include incomplete validation, unclear naming in a small area, or a slightly incomplete explanation.
 
 ### Style Issue
 
