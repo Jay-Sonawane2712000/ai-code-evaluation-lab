@@ -1,0 +1,9 @@
+{
+  "track": "cpp-algorithms",
+  "task_id": "task_01_top_k_frequent",
+  "language": "cpp",
+  "test_command": "g++ -std=c++17 -O2 test_solutions.cpp -o test_solutions && ./test_solutions",
+  "correct_solution": "correct_solution.cpp",
+  "flawed_solution": "flawed_solution.cpp",
+  "evaluation": "evaluation.md"
+}
