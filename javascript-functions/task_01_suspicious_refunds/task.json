@@ -1,0 +1,9 @@
+{
+  "track": "javascript-functions",
+  "task_id": "task_01_suspicious_refunds",
+  "language": "javascript",
+  "test_command": "npm test",
+  "correct_solution": "correct_solution.js",
+  "flawed_solution": "flawed_solution.js",
+  "evaluation": "evaluation.md"
+}
