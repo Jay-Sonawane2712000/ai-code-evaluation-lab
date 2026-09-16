@@ -1,0 +1,9 @@
+{
+  "track": "python-data-analysis",
+  "task_id": "task_01_monthly_revenue",
+  "language": "python",
+  "test_command": "pytest test_solutions.py -v",
+  "correct_solution": "correct_solution.py",
+  "flawed_solution": "flawed_solution.py",
+  "evaluation": "evaluation.md"
+}
