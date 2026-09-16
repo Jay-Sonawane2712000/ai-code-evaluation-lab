@@ -1,6 +1,6 @@
 # AI Code Evaluation Lab
 
-A completed MVP portfolio project for evaluating AI-generated code across data analysis, JavaScript functions, React UI components, and C++ algorithms.
+A portfolio project for evaluating AI-generated code across data analysis, JavaScript, TypeScript, React UI components, and C++ algorithms.
 
 AI Code Evaluation Lab exists to demonstrate the work behind high-quality AI code review: designing task prompts, creating reference solutions, seeding realistic model mistakes, writing tests that expose those mistakes, and producing rubric-based feedback. It is built to align with AI Trainer, AI Code Evaluator, and DataAnnotation-style roles where reviewers compare model outputs, identify hidden bugs, and explain quality issues clearly.
 
@@ -12,7 +12,7 @@ AI Code Evaluation Lab exists to demonstrate the work behind high-quality AI cod
 - Building tests that expose hidden bugs and edge-case failures.
 - Evaluating accuracy, efficiency, edge cases, code quality, and communication.
 - Writing professional feedback for model improvement.
-- Working across Python, JavaScript, React, and C++.
+- Working across Python, JavaScript, TypeScript, React, and C++.
 
 ## Repository Structure
 
@@ -31,6 +31,8 @@ ai-code-evaluation-lab/
 |   `-- task_01_monthly_revenue/
 |-- javascript-functions/
 |   `-- task_01_suspicious_refunds/
+|-- typescript-functions/
+|   `-- task_01_risk_score_validator/
 |-- react-ui-tasks/
 |   `-- task_01_kpi_card/
 `-- cpp-algorithms/
@@ -43,6 +45,7 @@ ai-code-evaluation-lab/
 | --- | --- | --- | --- | --- |
 | Python data analysis | Monthly revenue analysis | Python, pandas, pytest | Date grouping, signed revenue, refund rates, category ranking, dataframe testing | `pytest test_solutions.py -v` |
 | JavaScript functions | Suspicious refund detection | JavaScript, Jest | Threshold logic, ratios, rolling-window behavior, stable output ordering | `npm test` |
+| TypeScript functions | Risk score validator | TypeScript, Jest, ts-jest | Type safety, validation rules, threshold classification, stale-date logic, summary counts | `npm test` |
 | React UI tasks | KPI card component | React, Testing Library, Jest | Loading/error precedence, formatting, change states, accessibility checks | `npm test` |
 | C++ algorithms | Top K frequent integers | C++17 | Frequency counting, deterministic tie-breaking, edge cases, simple test runner | `g++ -std=c++17 -O2 test_solutions.cpp -o test_solutions.exe && test_solutions.exe` |
 
@@ -77,6 +80,15 @@ npm install
 npm test
 ```
 
+Run the TypeScript task:
+
+```bash
+cd typescript-functions/task_01_risk_score_validator
+npm install
+npm run typecheck
+npm test
+```
+
 Run the C++ task:
 
 ```bash
@@ -96,6 +108,7 @@ Run these commands from the repository root:
 ```bash
 python evaluator/score_task.py python-data-analysis/task_01_monthly_revenue
 python evaluator/score_task.py javascript-functions/task_01_suspicious_refunds
+python evaluator/score_task.py typescript-functions/task_01_risk_score_validator
 python evaluator/score_task.py react-ui-tasks/task_01_kpi_card
 python evaluator/score_task.py cpp-algorithms/task_01_top_k_frequent
 ```
@@ -127,7 +140,7 @@ The project catches bugs such as incorrect refund math, wrong aggregation levels
 Near-term additions:
 
 - Add a second Python data-analysis task.
-- Add a TypeScript-specific task.
+- Add a second TypeScript validation or transformation task.
 - Add a second React accessibility-focused task.
 
 Optional later additions:

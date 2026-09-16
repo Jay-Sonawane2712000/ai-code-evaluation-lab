@@ -1,0 +1,9 @@
+{
+  "track": "typescript-functions",
+  "task_id": "task_01_risk_score_validator",
+  "language": "typescript",
+  "test_command": "npm test",
+  "correct_solution": "correct_solution.ts",
+  "flawed_solution": "flawed_solution.ts",
+  "evaluation": "evaluation.md"
+}
