@@ -43,7 +43,7 @@ ai-code-evaluation-lab/
 
 | Track | Task | Language/Framework | What It Evaluates | Test Command |
 | --- | --- | --- | --- | --- |
-| Python data analysis | Monthly revenue analysis | Python, pandas, pytest | Date grouping, signed revenue, refund rates, category ranking, dataframe testing | `pytest test_solutions.py -v` |
+| Python data analysis | Monthly revenue analysis | Python, pandas, pytest | Date grouping, signed revenue, refund rates, category ranking, DataFrame testing | `pytest test_solutions.py -v` |
 | JavaScript functions | Suspicious refund detection | JavaScript, Jest | Threshold logic, ratios, rolling-window behavior, stable output ordering | `npm test` |
 | TypeScript functions | Risk score validator | TypeScript, Jest, ts-jest | Type safety, validation rules, threshold classification, stale-date logic, summary counts | `npm test` |
 | React UI tasks | KPI card component | React, Testing Library, Jest | Loading/error precedence, formatting, change states, accessibility checks | `npm test` |
