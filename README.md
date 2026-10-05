@@ -7,6 +7,7 @@ AI Code Evaluation Lab exists to demonstrate the work behind high-quality AI cod
 ## What This Demonstrates
 
 - Designing coding and data-analysis tasks with clear requirements.
+- Documenting evaluation steps for repeatable reviews.
 - Writing correct reference solutions.
 - Creating realistic flawed AI-style solutions.
 - Building tests that expose hidden bugs and edge-case failures.
